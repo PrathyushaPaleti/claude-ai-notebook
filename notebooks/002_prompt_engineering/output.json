@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Runner\n\nHere is a one-day meal plan for a vegan athlete preparing for a marathon race:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (120g), Fat (85g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Gluten-free oatmeal (80g dry) with coconut milk (240ml), banana (120g), and chia seeds (15g). Fresh berries (100g).\n    * Protein: 12g, Fat: 14g, Carbs: 75g\n\n* **Mid-Morning Snack (10:00 AM):** Rice cakes (50g) with tahini (25g) and dates (40g).\n    * Protein: 8g, Fat: 10g, Carbs: 48g\n\n* **Lunch (1:00 PM):** Lentil soup (300ml) made with red lentils (100g dry), vegetable broth, carrots (80g), celery (60g), and spinach (50g). Gluten-free bread (70g) with avocado (60g).\n    * Protein: 28g, Fat: 18g, Carbs: 68g\n\n* **Afternoon Snack (4:00 PM):** Smoothie with plant-based protein powder (30g), almond-free seed butter (20g), mango (150g), and oat milk (300ml).\n    * Protein: 25g, Fat: 12g, Carbs: 48g\n\n* **Dinner (7:00 PM):** Baked tofu (180g) with quinoa (80g cooked), roasted sweet potato (200g), and steamed broccoli (200g) with olive oil (15ml).\n    * Protein: 32g, Fat: 18g, Carbs: 85g\n\n* **Evening Snack (9:00 PM):** Pumpkin seeds (30g) with dried apricots (50g).\n    * Protein: 15g, Fat: 13g, Carbs: 48g\n\nThis meal plan prioritizes plant-based proteins, complex carbohydrates for endurance training, and healthy fats to support marathon preparation while adhering to vegan and gluten-free requirements.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "68",
+        "goal": "Marathon runner preparing for a 42km race in 2 weeks",
+        "restrictions": "Vegan diet, no gluten, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan accommodates all dietary restrictions (vegan, gluten-free, nut-free)",
+        "Plan is sport-specific to marathon running with appropriate carbohydrate emphasis for endurance",
+        "Includes 4-5 meals/snacks distributed throughout the day in compact format",
+        "Nutritionally balanced with protein, carbs, and healthy fats suitable for an endurance athlete"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a specific athlete type (e.g., marathon runner) with particular dietary restrictions (vegan) and specific caloric/macro targets to verify the meal plan is sport-specific, constraint-aware, and nutritionally balanced"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all mandatory requirements with precise portions, timings, and dietary compliance. The meal plan is well-structured for marathon preparation with appropriate carbohydrate emphasis and balanced macronutrients across multiple meals. However, there is a significant mathematical discrepancy between the stated caloric total and the macronutrient breakdown (likely ~535 calorie shortfall), which undermines the accuracy of the core nutritional guidance. The plan also lacks practical implementation details around hydration and training-specific timing. Despite these issues, all required elements are present and the dietary restrictions are perfectly honored."
+  }
+]

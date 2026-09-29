@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Marathon runner preparing for a 42km race in 2 weeks",
+      "restrictions": "Vegan diet, no gluten, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan accommodates all dietary restrictions (vegan, gluten-free, nut-free)",
+      "Plan is sport-specific to marathon running with appropriate carbohydrate emphasis for endurance",
+      "Includes 4-5 meals/snacks distributed throughout the day in compact format",
+      "Nutritionally balanced with protein, carbs, and healthy fats suitable for an endurance athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a specific athlete type (e.g., marathon runner) with particular dietary restrictions (vegan) and specific caloric/macro targets to verify the meal plan is sport-specific, constraint-aware, and nutritionally balanced"
+  }
+]
